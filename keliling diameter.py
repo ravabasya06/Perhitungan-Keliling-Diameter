@@ -7,7 +7,7 @@ def ulang():
         print("Diameter : "+str(float(jari2)*2))
         print("Keliling : "+str(float(jari2)*2*pi))
     elif jari2 == "":
-        diameter = int(input("Masukkan diameter lingkaran : "))
+        diameter = float(input("Masukkan diameter lingkaran : "))
         print("Jari-jari : "+str(float(diameter/2)))
         print("Diameter : "+str(float(diameter)))
         print("Keliling : "+str(float(diameter*pi)))
